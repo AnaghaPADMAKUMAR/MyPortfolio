@@ -1,0 +1,319 @@
+
+/*.bg-image{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+}*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #1F242D;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+
+nav ul{
+    margin-left: 43%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.nav-link:hover{
+    color: #0ef;
+}
+
+.container-text{
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+#p1{
+   font-size: larger;
+   padding-bottom: 2%;
+   padding-left: 100px;
+   color: white;
+}
+
+#hid{
+    padding-left: 100px;
+    color: white;
+}
+
+#about{
+    padding: 80px 0;
+    margin-top: 10px;
+    padding-top: 15%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+/*#about-col-1{
+    flex-basis: 35%;
+}
+
+#about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#about-col-2{
+    flex-basis: 60%;
+    
+}*/
+
+#p2{
+    color: white;
+    padding-top: 0;
+}
+
+.tab-titles{
+    display: flex;
+}
+
+.tab-links{
+    color: white;
+    margin-right: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background-color: #0ef;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+.tab-contents ul{
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.tab-contents li{
+    color: white;
+    list-style: none;
+    font-size: 14px;  
+    margin: 10px 0; 
+}
+
+.tab-contents li span{
+    color: #0ef;
+    font-size: 15px;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
+
+#skills{
+    margin-top: 5%;
+}
+
+#sk{
+    color: white;
+}
+
+#skillp{
+    padding-top: 10%;
+    text-align: justify;
+}
+
+/*.skill-col-1{
+    flex-basis: 35%;
+}
+
+.skill-col-2{
+    flex-basis: 60%;
+    margin-top: 5%;
+    padding-left: 0;
+}*/
+
+.col-md-2{
+    padding-left: 0;
+}
+
+.progress-bar{
+    background-color: #0ef;
+    color: #1F242D;
+    transition: 0.5s ease;
+}
+
+   #projects{
+    margin-top: 10%;
+   }
+
+   #pro{
+    color: white;
+    text-align: center;
+   }
+
+   .project-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+   }
+
+   .card-body{
+    background-color: #1F242D
+   }
+
+   .flip-head{
+    color: white;
+   }
+
+   .flip-para{
+    color: white;
+   }
+
+   .btn{
+    background-color: #0ef;
+    border-radius: 25px;
+    margin-left: 35%;
+   }
+
+   .btn:hover{
+    background-color: #1F242D;
+    color: #0ef;
+   }
+
+   .project-section{
+    justify-content: center;
+   }
+
+.card{
+    transition: all 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.05)
+}
+
+
+
+#contact{
+    margin-top: 10%;
+}
+
+.p1{
+    color: white;
+}
+
+.icon-color{
+    color: #0ef;
+}
+
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icons a:hover{
+    transform: translateY(-5px);
+}
+
+#cv{
+   border-radius: 8px;
+}
+.btn.btn2{
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+#sb{
+    border-radius: 8px;
+    margin-left: 50%;
+ }
+
+ .contact-right form{
+       width: 100%;
+ }
+
+ form input, form textarea{
+     width: 100%;
+     border: 0;
+     outline: none;
+     padding: 15px;
+     margin: 15px 0;
+     color: white;
+     background-color: #1F242D;
+     font-size: 18px;
+     border-bottom: 2px SOLID #0ef;
+ }
+
+ .foot{
+    background-color: rgba(0, 0, 0, 0.097);
+    color: white;
+    margin-bottom: 0;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 15px
+ }
+
+ 
+@media(max-width:450px){
+    #p1{
+        color: #0ef;
+    }
+    #hid{
+        display: none;
+    }
+}
